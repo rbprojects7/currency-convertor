@@ -1,0 +1,25 @@
+module.exports = {
+  host: process.env.NODE_HOST || 'localhost',
+  port: process.env.PORT || 8080,
+  fixerAPIKey: 'eb71eed79e12e26e2eed083322ade4b4',
+  prefetchEndpoint: 'http://data.fixer.io/api/latest?access_key=eb71eed79e12e26e2eed083322ade4b4&format=1',
+  header: {
+    htmlAttributes: { lang: 'en', prefix: 'og: http://ogp.me/ns#' },
+    title: 'currency-convertor',
+    titleTemplate: 'currency-convertor - %s',
+    meta: [
+      { name: 'description', content: 'currency-convertor is your pre-wealth advisor. We create equity planning tools that help you make better financial decisions from offer to IPO.' },
+      { name: 'twitter:card', content: 'summary' },
+      { name: 'twitter:title', content: 'currency-convertor' },
+      { name: 'twitter:description', content: 'currency-convertor is your pre-wealth advisor. We create equity planning tools that help you make better financial decisions from offer to IPO.' },
+      { name: 'twitter:image:src', content: 'https://www.currency-convertor.com/assets/currency-convertor-600x600.jpg' },
+      { name: 'og:title', content: 'currency-convertor' },
+      { name: 'og:description', content: 'currency-convertor is your pre-wealth advisor. We create equity planning tools that help you make better financial decisions from offer to IPO.' },
+      { name: 'og:image', content: 'https://www.currency-convertor.com/assets/currency-convertor-opengraph.jpg' },
+      { name: 'og:image:type', content: 'image/jpeg' },
+      { name: 'og:url', content: 'https://www.currency-convertor.com/' },
+      { name: 'og:site_name', content: 'currency-convertor' },
+      { name: 'og:type', content: 'website' },
+    ],
+  },
+};

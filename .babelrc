@@ -1,0 +1,30 @@
+{
+  "presets":[
+    "mobx",
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ],
+    "@babel/react",
+    "@babel/typescript"
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true}],
+    ["@babel/plugin-proposal-class-properties", { "loose": true}]
+  ],
+  "compact" : true,
+  "env": {
+    "development": {
+      "presets": ["@babel/preset-env", "@babel/preset-react"],
+      "plugins": ["@babel/plugin-transform-runtime", "@babel/plugin-proposal-object-rest-spread", "@babel/plugin-transform-object-assign"]
+    },
+    "build": {
+      "presets": ["@babel/preset-env", "@babel/preset-react"],
+      "plugins": ["@babel/plugin-transform-object-assign"]
+    }
+  }
+}
