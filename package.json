@@ -75,7 +75,7 @@
     "helmet": "^3.16.0",
     "hpp": "^0.2.2",
     "jsonwebtoken": "^8.5.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "lodash-webpack-plugin": "^0.11.5",
     "mini-css-extract-plugin": "^0.5.0",
     "mobx": "^5.9.0",
