@@ -56,7 +56,7 @@
     "@babel/runtime": "^7.4.2",
     "@types/react": "^16.8.8",
     "@types/react-dom": "^16.8.3",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "axios-concurrency": "^1.0.1",
     "babel-loader": "^8.0.5",
     "babel-preset-mobx": "^2.0.0",
